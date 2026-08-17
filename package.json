@@ -1,0 +1,18 @@
+{
+  "name": "dsh-file-drop",
+  "version": "1.0.0",
+  "description": "DSH 会话框文件拖放插件（静态版）：整个会话框可拖入文件，图片直接作为附件，其他格式自动保存并转换路径插入输入框。",
+  "type": "module",
+  "main": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "client": {
+      "platform": "web"
+    }
+  },
+  "license": "MIT"
+}
